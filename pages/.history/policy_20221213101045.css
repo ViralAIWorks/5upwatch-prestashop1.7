@@ -1,0 +1,21 @@
+html {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.date-upload {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+}
+
+hr {
+    border-style: solid;
+}

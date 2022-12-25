@@ -1,0 +1,97 @@
+
+/**/
+body[body_class]{
+    /*background: [color2]!important;*/
+}
+
+body[body_class] a:not(.btn):hover,
+body[body_class] #header .ybc-widget-ybc-custom-4 li a:hover,
+body[body_class] .ybc_coppyright a,
+body[body_class] .dropdown:hover .expand-more,
+body[body_class] .product-price-and-shipping,
+body[body_class] .search_icon_toogle:hover,
+body[body_class] .add_to_cart_button .btn.btn-primary:hover,
+body[body_class] #blockcart-modal .product-name,
+body[body_class] .product-price,
+body[body_class] .nav-item .nav-link.active, 
+body[body_class] .nav-item .nav-separtor.active,
+body[body_class] .cart-total .value,
+body[body_class] .page-my-account #content .links a:hover i,
+body[body_class] .star.star_on,
+body[body_class] .main-color,
+body[body_class] div.star.star_hover:after,
+body[body_class] .block-categories .collapse-icons .add:hover, 
+body[body_class] .block-categories .collapse-icons .remove:hover,
+body[body_class] .dropdown:hover .expand-more,
+body[body_class] .product-prices div,
+body[body_class] .shop_text_nav > i,
+body[body_class] .block_newsletter form .submit_subscribe:hover:before,
+body[body_class] .cart-wishlist-item .product-quantity,
+body[body_class] .search-widget form button[type="submit"]:hover,
+body[body_class] .comments_note div.star.star_on:after,
+body[body_class].page-my-account #content .links a:hover,
+body[body_class] .social-sharing li a:hover:before{
+    color: [color1];
+}
+body[body_class] .main_color span{
+    color: [color1]!important;
+}
+body[body_class] .mls_layer_type_front_button:hover span,
+body[body_class] .custom-radio input[type="radio"]:checked + span{
+    background-color: [color1]!important;
+}
+
+
+body[body_class] .ybc-widget-item-link:hover,
+body[body_class] .cart-preview .cart-products-count.cart-products-count-absolution,
+body[body_class] .discount-percentage,
+body[body_class] #blockcart-modal .modal-header,
+body[body_class] .search-widget form button[type="submit"]:hover,
+body[body_class] .cart-wishlist-checkout:hover,
+body[body_class] .btn-primary:hover,
+body[body_class] #new_comment_form button:hover,
+body[body_class] .pagination .current a,
+body[body_class] .products-sort-order .select-list:hover,
+body[body_class] .mls_pag_button.active,
+body[body_class] .mls_nav > div:hover,
+body[body_class] .product-miniature .add_to_cart.btn-primary:hover,
+body[body_class] .btn-primary,
+body[body_class] .owl-next,
+body[body_class] .owl-prev,
+body[body_class] .read_more,
+body[body_class] .quick-view:hover,
+body[body_class] .block-social li a:hover,
+body[body_class] .view_product:hover,
+body[body_class] .wishlist .addToWishlist:hover,
+body[body_class] .product-flags li.new,
+body[body_class] .wishlist .wishlist_button_list:hover,
+body[body_class] .layout_layout2 .mm_menus_li:hover > a, 
+body[body_class] .btn-secondary:hover, 
+body[body_class] .btn-tertiary:hover,
+body[body_class] .scroll_top,
+body[body_class] .layout_layout2 .mm_menus_li.active > a, 
+body[body_class] #footer .ybc-theme-panel-inner #ybc_tc_float_header li.active{
+    border-color: [color1];
+    background-color: [color1];
+}
+body[body_class] .ybc-theme-panel-btn{
+    border-left-color: [color1];
+}
+
+body[body_class] .quick-view:hover,
+body[body_class] .add_to_cart_button .btn.btn-primary:hover,
+body[body_class] .pagination a:hover,
+body[body_class] .block-social li a:hover,
+body[body_class] .wishlist .addToWishlist:hover,
+body[body_class] .social-sharing li a:hover,
+body[body_class] .scroll_top::after,
+body[body_class] .scroll_top::before,
+body#checkout[body_class] section.checkout-step .address-item.selected,
+body[body_class] .block_newsletter form input[type="text"]:focus{
+    border-color: [color1];
+}
+
+body[body_class] .form-control:focus,
+body[body_class] .input-group.focus {
+  outline-color: [color1];
+}

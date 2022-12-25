@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.date-upload {
+    font-style: italic;
+}

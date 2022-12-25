@@ -1,0 +1,592 @@
+/*Created By https://www.digitaldesignjournal.com/*/
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/main-bg.jpg)center top repeat-y;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: 0!important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1082px;
+    }
+}
+
+
+/*Header*/
+
+header {
+    margin-top: 19px;
+}
+
+header .container {
+    background: url(../images/header-bg.jpg)center bottom no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 713px;
+}
+
+.head_text {
+    font-family: 'Just Wright';
+    color: #fff;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.head_text__description {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Gotham Narrow Book';
+    margin-top: 2px;
+}
+
+.testtt {
+    color: red;
+}
+
+
+/*title*/
+
+.title {
+    margin-top: 30px;
+    font-size: 111.25px;
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 51px;
+}
+
+.title span {
+    font-size: 114.45px;
+    font-weight: bold;
+    display: block;
+    margin-top: -24px;
+}
+
+
+/*percent*/
+
+.percent {
+    width: 143px;
+    height: 143px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 252px;
+    right: -46px;
+    box-shadow: 5px 15px 1px #1a1e21;
+}
+
+.percent .num {
+    font-size: 44.23px;
+    font-weight: bold;
+    transform: rotate(15deg);
+    padding-top: 45px;
+    display: block;
+    color: #f0123e;
+    margin-right: -20px;
+    font-family: 'Caviar Dreams';
+}
+
+.percent .off {
+    font-size: 22.86px;
+    transform: rotate(15deg);
+    display: block;
+    margin-top: -25px;
+    text-transform: uppercase;
+    font-family: 'Caviar Dreams';
+    color: #fff;
+}
+
+
+/*button*/
+
+.button {
+    height: 58px;
+    width: 100%;
+    max-width: 330px;
+    font-size: 22.67px;
+    text-transform: uppercase;
+    margin: 19px auto 0;
+    background: #f0123e;
+    border-radius: 4px;
+    display: block;
+    line-height: 58px;
+    color: #fff;
+    transition: all .6s ease;
+}
+
+.button:hover {
+    transform: scale(.9);
+    color: #fff;
+}
+
+
+/*Countdown*/
+
+.titles_block {
+    position: relative;
+    top: 33px;
+}
+
+.countdown_title {
+    font-size: 54.67px;
+    font-family: 'Gotham Narrow';
+    font-weight: 500;
+    color: #fff;
+}
+
+.year {
+    font-size: 38.67px;
+    color: #fff;
+    font-family: 'Gotham Narrow';
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.soon-text.soon-label,
+.soon-wrapper[data-layout*=label-small][data-visual] .soon-label,
+.soon[data-layout*=label-small][data-visual] .soon-label {
+    font-size: 13.33px!important;
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+    bottom: unset;
+    top: 76px;
+}
+
+.soon-wrapper[data-visual*=ring]:not([data-layout*=label-hidden]) .soon-value,
+.soon[data-visual*=ring]:not([data-layout*=label-hidden]) .soon-value {
+    top: 40%;
+}
+
+.soon-ring canvas {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+}
+
+.soon-ring.soon-visual {
+    margin: 0 2px;
+}
+
+.soon[data-layout*=line] {
+    padding: 0;
+    margin: 45px;
+}
+
+
+/*First screen*/
+
+.first_screen .container {
+    background: #fff;
+    padding-bottom: 56px;
+}
+
+.second_title {
+    font-size: 50.67px;
+    font-family: 'Gotham Narrow';
+    font-weight: 500;
+    color: #000;
+    margin-top: 50px;
+}
+
+.second_title__description {
+    font-size: 20.5px;
+    color: #969696;
+    padding: 0 127px;
+    margin-top: 20px;
+}
+
+
+/*product_card*/
+
+.product_card {
+    max-width: 288px;
+    margin: 44px auto 0;
+    text-align: center;
+    position: relative;
+}
+
+.image_box {
+    background: #ffffff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+}
+
+.triangle {
+    position: absolute;
+    width: 95px;
+    height: 88px;
+    top: 0;
+    left: 0;
+}
+
+.triangle::before {
+    content: '';
+    position: absolute;
+    border-right: 95px solid transparent;
+    border-bottom: 88px solid transparent;
+    border-top: 88px solid #f0123e;
+    left: 0;
+    top: 0;
+}
+
+.triangle .perc {
+    font-size: 24px;
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 8px;
+    color: #fff;
+}
+
+.triangle .off {
+    font-family: 'Caviar Dreams';
+    font-size: 14.67px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+    margin-left: 8px;
+    color: #fff;
+}
+
+.bottom_box {
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.price_title {
+    font-family: 'Gotham Narrow Book';
+    font-size: 18.67px;
+    padding-top: 28px;
+    color: #2b334c;
+}
+
+.prices_box {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7px;
+    font-family: 'Gotham Narrow Book';
+}
+
+.old_price {
+    color: #f0123e;
+    font-size: 18.67px;
+    text-decoration: line-through;
+}
+
+.price {
+    color: #2b334c;
+    font-size: 18.67px;
+}
+
+.product_card__text {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #404040;
+    padding: 0 35px;
+    margin-top: 20px;
+}
+
+.product_card__button {
+    max-width: 131px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    background: #f0123e;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Gotham Narrow';
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    margin: 25px auto;
+    transition: all .6s ease;
+}
+
+.product_card__button:hover {
+    transform: scale(.9);
+    color: #fff;
+}
+
+
+/*second_screen*/
+
+.second_screen .container {
+    background: #1f2930;
+    height: 698px;
+}
+
+
+/*little_title*/
+
+.second_screen .container .row .col-md-6 .text_block {
+    padding-left: 105px;
+    padding-right: 52px;
+}
+
+.little_title {
+    font-size: 18.67px;
+    font-family: 'Gotham Narrow Book';
+    color: #fff;
+    margin-top: 114px;
+}
+
+.big_title {
+    margin-top: 80px;
+    font-weight: 900;
+    font-family: 'Gotham Narrow';
+    color: #fff;
+    font-size: 80px;
+    text-align: right;
+    margin-left: -10px;
+}
+
+.discount {
+    font-size: 76px;
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+    color: #f0123e;
+    text-align: center;
+}
+
+.code {
+    font-size: 18.67px;
+    text-decoration: uppercase;
+    font-family: 'Gotham Narrow Book';
+    color: #fff;
+    margin-top: 105px;
+    text-align: right;
+    padding-bottom: 140px;
+}
+
+.code span {
+    font-size: 18.67px;
+    text-decoration: none;
+    margin-top: 11px;
+    display: block;
+}
+
+.side_img {
+    height: 698px;
+}
+
+
+/*third_screen*/
+
+.third_screen .container {
+    background: #f0123e;
+    height: 698px;
+}
+
+.third_screen .container .row .col-md-6.p-0 .text_block {
+    padding-left: 48px;
+}
+
+.third_screen .container .row .col-md-6.p-0 .text_block .discount {
+    color: #000;
+}
+
+.button_shop {
+    display: block;
+    margin-left: auto;
+    max-width: 178px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Gotham Narrow';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 21.33px;
+    color: #ffff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all .5s ease;
+    margin-top: 49px;
+    margin-bottom: 55px;
+}
+
+.button_shop:hover {
+    transform: scale(.9);
+    color: #fff;
+}
+
+
+/*footer*/
+
+footer {
+    margin-bottom: 44px;
+}
+
+footer .container {
+    height: 75px;
+    line-height: 75px;
+    background: #000;
+}
+
+.footer_list {
+    align-items: center;
+    height: 75px;
+}
+
+.footer_list li a {
+    color: #fff;
+    font-size: 28px;
+    transition: all .5s ease;
+}
+
+.footer_list li a:hover {
+    color: #f0123e;
+}
+
+.footer_list li {
+    margin-left: 40px;
+}
+
+.footer_list li:first-child {
+    margin-left: 0;
+}
+
+
+/*Media queries*/
+
+@media (max-width: 1200px) {
+    .percent {
+        right: -80px;
+    }
+    .second_screen .container {
+        height: 100%;
+    }
+    .soon[data-layout*=line] {
+        margin: 0;
+        margin-top: 45px;
+    }
+    .side_img {
+        height: 100%;
+    }
+    #third_screen .container .row .col-md-6 img {
+        height: 100%;
+    }
+    #third_screen .container {
+        height: 100%;
+    }
+    #fifth_screen .container {
+        height: 100%;
+    }
+    #fifth_screen .code {
+        margin-bottom: 50px;
+    }
+    #fifth_screen .text_block,
+    #second_screen .text_block {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .image_box {
+        height: 190px;
+    }
+    .image_box img {
+        width: 100%;
+    }
+    .big_title {
+        font-size: 60px;
+    }
+    .discount {
+        font-size: 40px;
+    }
+    .percent {
+        right: -150px;
+    }
+    header .container {
+        height: auto;
+    }
+    .soon[data-face*=rotate] .soon-slot-animate .soon-slot-new {
+        font-size: 30px;
+    }
+    .soon-text.soon-label,
+    .soon-wrapper[data-layout*=label-small][data-visual] .soon-label,
+    .soon[data-layout*=label-small][data-visual] .soon-label {
+        top: 45px;
+        font-size: .355em!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .percent {
+        display: none;
+    }
+    .soon[data-face*=rotate] .soon-slot-animate .soon-slot-new {
+        font-size: 40px;
+    }
+    .soon-text.soon-label,
+    .soon-wrapper[data-layout*=label-small][data-visual] .soon-label,
+    .soon[data-layout*=label-small][data-visual] .soon-label {
+        top: 65px;
+        font-size: 2em;
+    }
+    .image_box img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 370px) {
+    .title {
+        font-size: 90px;
+    }
+    .title span {
+        font-size: 90px;
+    }
+}

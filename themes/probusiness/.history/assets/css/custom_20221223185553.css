@@ -1,0 +1,255 @@
+#index #slider_row {
+    background-image: url(../img/main-bg.jpg);
+    border-bottom: 0;
+}
+
+#wrapper {
+    background-image: url(../img/main-bg.jpg);
+}
+
+.thumbnail-container {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-home,
+.bg-home:after,
+.bg-home:before {
+    background-image: url(../img/main-bg.jpg);
+    border-top: 0;
+}
+
+#footer {
+    background: #565656;
+    border-top: 0;
+}
+
+.footer-container {
+    background-color: #fff;
+}
+
+.category-sub-menu {
+    background-color: #fff;
+}
+
+.footer_bottom {
+    padding: 0;
+}
+
+.row {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#products {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ybc-widget-display-top-column {
+    padding: 0;
+}
+
+.ybc-widget-item {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.home_widget_top_column .row {
+    background-image: url(../img/main-bg.jpg);
+}
+
+.page-home .row {
+    padding: 0;
+}
+
+.page-home span {
+    color: #fff;
+}
+
+span[itemprop="name"] {
+    color: #fff;
+}
+
+span[itemprop="name"]:hover {
+    color: #ffe300;
+}
+
+#cart main {
+    background-image: url(../img/main-bg.jpg);
+}
+
+.thumbnail-container span {
+    color: #000;
+}
+
+#product span[itemprop="price"],
+#product .tax-shipping-delivery-label {
+    color: #000;
+}
+
+#index .view_product {
+    display: none;
+}
+
+#index #right-column .block {
+    background: transparent;
+    border: none;
+    position: fixed;
+    top: 20px;
+    width: 240px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#index #right-column .block.show_block {
+    opacity: 1;
+    visibility: visible;
+}
+
+#index #right-column .ybc-widget-display-right-column {
+    padding-left: 30px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+}
+
+#index h4[class="h3 product-title"] a {
+    font-size: 13px;
+}
+
+#index div[class="thumbnail-container"] {
+    height: 342px;
+}
+
+div span[class="post-date"] {
+    color: grey;
+}
+
+div[class="highlighted-informations no-variants"] {
+    position: relative;
+    bottom: -20px;
+}
+
+#wrapper .block.show_block {
+    position: fixed !important;
+    right: 8%;
+}
+
+.scroll_top {
+    margin-bottom: 3.5%;
+}
+
+#identity .form-group {
+    margin-bottom: 0
+}
+
+#history h6 {
+    color: white
+}
+
+#history table[class="table table-striped table-bordered table-labeled hidden-sm-down"] {
+    background-color: aliceblue;
+}
+
+#order-detail .row,
+#order-detail .box {
+    background-color: aliceblue;
+    ;
+}
+
+#order-slip h6 {
+    color: yellow
+}
+
+#order-slip .alert-warning {
+    font-weight: bold;
+    color: red;
+    background-color: pink;
+    border-color: red;
+}
+
+#module-blockwishlist-lists a[class="wishlist-add-to-new"] {
+    visibility: hidden;
+}
+
+#module-blockwishlist-lists section[class="page-content card card-block"] {
+    background-color: aliceblue;
+}
+
+#view .wishlist-product-combinations {
+    visibility: hidden;
+}
+
+#view .wishlist-product-title:hover {
+    color: yellow
+}
+
+#view .wishlist-product-title {
+    font-size: 20px;
+}
+
+#view .wishlist-product-title,
+#view .wishlist-product-price {
+    text-align: center;
+}
+
+#view .wishlist-product {
+    background-color: white;
+}
+
+#view .wishlist-product-title,
+#view .wishlist-product-price {
+    position: relative;
+    top: 20px
+}
+
+#view .wishlist-products-count {
+    color: #ffe300
+}
+
+#view span[class="col-sm-3 col-md-3 hidden-sm-down sort-by"] {
+    color: white
+}
+
+.coppyright {
+    visibility: hidden;
+}
+
+.block-social.col-md-12.col-sm-12 {
+    position: relative;
+    bottom: 69px !important;
+    right: 25% !important;
+}
+
+.footer_top {
+    position: relative;
+    top: 30px
+}
+
+#order-confirmation h3[class="h1 products-section-title text-uppercase title-home"] span {
+    color: white
+}
+
+#index .block-social.col-md-12.col-sm-12 {
+    position: relative;
+    bottom: 0;
+    right: 2%;
+}
+
+#index ul:nth-child(4) {
+    display: none;
+}
+
+#discount table[class="table table-striped table-bordered hidden-sm-down"] tbody {
+    background-color: aliceblue;
+}
+
+.footer_before,
+.footer_bottom {
+    display: none;
+}
